@@ -30,6 +30,7 @@ body {
   width: 40rem;
   height: 40vh;
   border-radius: 0.7rem;
+  user-select: none;
 }
 
 .content h1 {
@@ -38,7 +39,8 @@ body {
 
 .content button {
   color: white;
-  padding: 0.7rem 4rem;
+  padding: 0.7rem 7rem;
+  width: 100%;
   border: none;
   background: rgb(48, 111, 247);
   outline: none;
@@ -49,10 +51,18 @@ body {
   transition: all 1s ease;
 }
 
-.content button::before {
+.content .button-add::before {
   content: "Add Count ";
+}
+
+.content .button-subtract::before {
+  content: "Subtract Count ";
 }
 
 .content button:hover {
   background: rgb(7, 7, 212);
+}
+
+.content button:focus {
+  background: rgb(48, 111, 247);
 }
