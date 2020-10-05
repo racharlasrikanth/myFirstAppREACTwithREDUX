@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./images/MountainLogin.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.content {
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.61);
+  width: 40rem;
+  height: 40vh;
+  border-radius: 0.7rem;
+}
+
+.content h1 {
+  color: white;
+}
+
+.content button {
+  color: white;
+  padding: 0.7rem 4rem;
+  border: none;
+  background: rgb(48, 111, 247);
+  outline: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 1s ease;
+}
+
+.content button::before {
+  content: "Add Count ";
+}
+
+.content button:hover {
+  background: rgb(7, 7, 212);
+}
