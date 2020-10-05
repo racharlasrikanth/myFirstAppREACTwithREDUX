@@ -66,3 +66,14 @@ body {
 .content button:focus {
   background: rgb(48, 111, 247);
 }
+
+@media screen and (max-width: 460px) {
+  html {
+    font-size: 80%;
+  }
+  .content {
+    padding: 10rem 2rem;
+    height: 100vh;
+    border-radius: 0rem;
+  }
+}
