@@ -13,6 +13,7 @@ const store = createStore(
 );
 
 ReactDOM.render(
+  // By using Provider We can access redux state to react application
   <Provider store={store}>
     <App />
   </Provider>,

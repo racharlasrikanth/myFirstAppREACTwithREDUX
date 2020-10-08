@@ -1,3 +1,5 @@
+// Combine all Reducers by using combineReducers form redux
+
 import counterReducer from "./counter";
 import loggedReducer from "./isLogged";
 

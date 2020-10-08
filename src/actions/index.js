@@ -1,3 +1,5 @@
+// Action page (Increment and Decrement)
+
 export const increment = (num) => {
   return {
     type: "INCREMENT",

@@ -23,7 +23,7 @@ function App() {
           -
         </button>
 
-        {isLogged ? <h3>Valuble information I shouldn't see</h3> : ""}
+        {isLogged ? <h3>Valuble information I shouldn't seeee</h3> : ""}
       </div>
     </div>
   );

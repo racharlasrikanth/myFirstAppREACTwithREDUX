@@ -27,8 +27,8 @@ body {
   justify-content: space-around;
   align-items: center;
   background: rgba(0, 0, 0, 0.61);
-  width: 40rem;
-  height: 40vh;
+  width: 35rem;
+  height: 50vh;
   border-radius: 0.7rem;
   user-select: none;
 }
@@ -39,7 +39,7 @@ body {
 
 .content button {
   color: white;
-  padding: 0.7rem 7rem;
+  padding: 0.7rem 0rem;
   width: 100%;
   border: none;
   background: rgb(48, 111, 247);
